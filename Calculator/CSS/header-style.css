@@ -1,0 +1,43 @@
+/* HEADER COLOR AND FONT style */
+header{
+    background-color: #379683;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    overflow: hidden;
+}
+
+/* ABACUS HEADER NAME */
+a{
+    text-decoration: none;
+    font-size: 330%;
+    font-weight: bold;
+}
+#logo_name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgb(190, 200, 209); 
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(163, 255, 165));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#logo_name:hover{
+    text-decoration: none;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(0, 255, 34));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* img logo position */
+#ana_logo{
+    margin-top: -10px;
+}
+
+/* when the header is less than 285px */
+@media (max-width:285px) {
+    #ana_logo{
+        width: 33px;
+        margin-top: 2px;
+    }
+    #logo_name{
+        font-size: 200%;
+    }
+}
